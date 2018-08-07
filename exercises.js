@@ -44,25 +44,6 @@ var countStrings;
  */
 var countAllStrings;
 
-/* #convertToArray
- *
- * Takes in an object and returns all the values of the object in an array.
- *
- * @param {Object}
- * @return {Array}
- */
-
-var createZeroFilledArray;
-
-/* #poppedArray
- *
- * Takes in an array of numbers and returns an array of all but the last element of the array.
- *
- * @param {Array}
- * @return {Array}
- */
-var poppedArray;
-
 /* #splitString
  *
  * Takes in a string and returns an array of each individual character in the string.
@@ -142,25 +123,13 @@ var doubleArray;
  * @param {Array}
  * @return {Number}
  */
-var countObjects;
-
-/* #getObjectKeys
- *
- * Takes in an object and returns an array of all the object's keys.
- *
- * @param {Object}
- * @return {Array}
- */
 
 module.exports = {
-  doubleArray: doubleArray,
   stringCount: null,
   arrayLength: null,
   countAll: null,
   countStrings: null,
   countAllStrings: null,
-  createZeroFilledArray: null,
-  poppedArray: null,
   splitString: null,
   lengthOfLast: null,
   sumBelowTen: null,
@@ -168,5 +137,6 @@ module.exports = {
   multiplyAll: null,
   sumAllPositive: null,
   stringCountBelowThree: null,
+  doubleArray: null,
   countObjects: null
 };

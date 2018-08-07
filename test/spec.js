@@ -18,12 +18,6 @@ describe('JS fundamental Drills', function() {
   it('#countAllStrings is a function that takes in an array of strings and returns the sum of the length of all characters.', function() {
     expect(func.countAllStrings(['a', 'ab', 'abc'])).to.deep.equal(6);
   });
-  it('#createZeroFilledArray is a function that takes in a number and returns an array with the length of that number filled with zeroes.', function() {
-    expect(func.createZeroFilledArray(2)).to.deep.equal([0, 0]);
-  });
-  it('#poppedArray is a function that takes in a an array of numbers and returns a new array without the last element of the array.', function() {
-    expect(func.poppedArray([1, 2, 3])).to.deep.equal([1, 2]);
-  });
   it('#splitString is a function that takes in a string and returns an array with each characater as a value of the array.', function() {
     expect(func.splitString('abc')).to.deep.equal(['a', 'b', 'c']);
   });
